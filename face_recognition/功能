@@ -1,0 +1,9 @@
+Train階段
+
+	read and train image
+
+	存入資料庫 img name 
+
+點名階段
+
+	return 準確率

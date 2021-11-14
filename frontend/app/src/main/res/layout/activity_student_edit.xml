@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentEdit">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="姓名:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:hint="輸入姓名"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/dep"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="系所:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/depInput"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:hint="選擇系所"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="年級:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/gradeInput"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:hint="選擇年級"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/stuNum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="學號:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/stuNumInput"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:hint="輸入學號"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="電子信箱:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/mailInput"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:hint="輸入e-mail"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="電話:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/phoneInput"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:hint="輸入電話"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/verify"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="驗證碼:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/verifyInput"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:hint="驗證碼"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="right">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="發送驗證碼" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="修改"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

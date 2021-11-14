@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainPageActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="學生請假"
+            android:layout_marginEnd="90dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/attendAnalysis"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="出席分析"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1f1"
+        android:layout_marginTop="10dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="0"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="週一"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="週二"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="週三"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="週四"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="週五"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>

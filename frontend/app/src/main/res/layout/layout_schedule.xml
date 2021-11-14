@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_layout">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1f1">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/monOne"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="2dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/tueOne"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="2dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/wedOne"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="2dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/thuOne"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="2dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/friOne"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
